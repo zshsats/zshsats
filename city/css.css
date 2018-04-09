@@ -1,0 +1,130 @@
+/*权限区域选择*/
+.city-box {
+    width: 100%;
+}
+.city-box li {
+
+    list-style: none;
+}
+.city-box .agentsright {
+    float:right;
+}
+.city-box .city-item{
+    float: right;
+
+    text-align: right;
+    display: inline-block;
+}
+.city-item1{
+    padding-right: 65px;
+}
+.city-item2{
+    padding-right: 35px;
+}
+.city-item3{
+    padding-right: 5px;
+}
+.city-box .open-city{
+
+    padding-right: 5px;
+    display: inline-block;
+    width: 60%;
+}
+.city-box .open-area{
+    padding-right: 5px;
+    display: inline-block;
+
+    width: 60%;
+}
+.city-box .city,.area{
+    display: none;
+}
+.city-box .waitBox {
+    display: inline-block;
+    width: 100%;
+    border: #ccc solid 1px;
+    border-radius: 6px;
+    min-height: 500px;
+}
+
+.city-box .waitBox h2 {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: #f2f2f2 solid 1px;
+    margin: 0;
+}
+
+.city-box .waitBox ul {
+    padding: 0px;
+    margin: 0;
+}
+.city-box .activity{
+    color: yellowgreen;
+}
+.city-box .waitBox > ul {
+    max-height: 460px;
+    overflow-y: auto;
+}
+
+.city-box .waitBox ul a {
+    padding: 6px 0px 6px 10px;
+}
+
+.city-box .waitBox ul ul a {
+
+    padding: 6px 0px 6px 45px;
+}
+
+.city-box .waitBox ul ul ul a {
+    padding: 6px 0px 6px 95px;
+}
+
+.city-box .waitBox li a {
+    display: block;
+    border-bottom: #f9f9f9 solid 1px;
+    padding: 4px 10px;
+    margin: 4px;
+    text-decoration: none;
+}
+.clearfix{}
+.clearfix::after {
+     display: block;
+     content: "";
+     clear: both;
+ }
+
+
+
+
+
+.checkbox{
+    font-size: 12px;
+    cursor: pointer;
+}
+.checkbox i{
+    font-size: 12px;
+    font-style: normal;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    line-height: 12px;
+    color: #fff;
+    vertical-align: middle;
+    margin: -2px 2px 1px 0px;
+    border: #2489c5 1px solid;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked + i, input[type="radio"]:checked+ i{
+    background: #2489c5;
+}
+input[type="checkbox"]:disabled+ i, input[type="radio"]:disabled +i{
+    border-color: #ccc;
+}
+input[type="checkbox"]:checked:disabled+ i, input[type="radio"]:checked:disabled +i{
+    background: #ccc;
+}
